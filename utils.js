@@ -20,5 +20,10 @@ module.exports  = {
   isNull,
   isNaN,
   isUndefined,
+  random,
+  getNRandomNumbers,
+  prefixZero,
+  clone,
+  equals,
   download
 };
