@@ -1,4 +1,4 @@
-const { isString } = require('../type/type');
+const { isString } = require('../type');
 
 /**
  * 

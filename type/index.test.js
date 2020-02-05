@@ -1,5 +1,5 @@
 const assert = require('assert');
-const { isNumber, isString, isBoolean, isObject, isArray, isFunction, isDate, isRegExp, isSymbol, isNull, isNaN, isUndefined } = require('./type');
+const { isNumber, isString, isBoolean, isObject, isArray, isFunction, isDate, isRegExp, isSymbol, isNull, isNaN, isUndefined } = require('.');
 
 assert.equal(isNumber(1), true);
 assert.equal(isNumber('a'), false);
