@@ -1,6 +1,6 @@
 {
   "name": "hi2048-utils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Utils.",
   "main": "index.js",
   "scripts": {
