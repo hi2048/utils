@@ -4,6 +4,7 @@ const { isNumber, isString, isBoolean, isObject, isArray, isFunction, isDate, is
 const { random, getNRandomNumbers, prefixZero } = require('./random');
 const { clone, equals } = require('./clone');
 const download = require('./download');
+const { compose, pipe, curry } = require('./curry');
 
 module.exports  = {
   min,
@@ -25,5 +26,8 @@ module.exports  = {
   prefixZero,
   clone,
   equals,
-  download
+  download,
+  compose,
+  pipe,
+  curry
 };
